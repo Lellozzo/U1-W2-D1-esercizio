@@ -218,6 +218,7 @@ button {
 }
 
 /* ELEMENTI NELL' ASIDE */
+
 aside h2 {
   text-align: center;
   color: #333;
@@ -339,6 +340,7 @@ footer a {
 @media screen and (min-width: 1024px) {
   aside {
     font-size: 1.2em;
+    text-align: center;
   }
 }
 /* MEDIA QUERY FOOTER */
@@ -352,6 +354,11 @@ footer a {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .box-correlati {
+    display: inline-block;
+  }
+}
 /* MEDIA QUERY HEADER, MAIN E FOOTER MIN 1200px */
 @media screen and (min-width: 1200px) {
   header,
